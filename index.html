@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <audio id="myAudio">
+        <source src="na.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="myAudio2">
+        <source src="vm.mp3" type="audio/mpeg">
+    </audio>
+    <div class="con">
+    <section class="back" id ="back">
+            <div class="text-center">
+				<img class="card-img-top" src="euro.jpg" width="150" height="50">
+				<button class="btn btn-warning" onclick="hoisting()">Hoist</button>
+				<button class="btn btn-light" onclick="play()">National Anthem</button>
+				<button class="btn btn-success" onclick="play2()">Vande Mataram</button>
+				<img class="card-img-top" src="Powered By.png" width="150" height="50">
+				<img class="card-img-top" src="google.jpeg" width="150" height="50">
+			</div>
+            <div class="hoisting">
+                
+                <div id="flag" class="flag">
+                    <canvas id="confetti"></canvas>
+                </div>
+            </div>
+    </section>
+</div>
+</body>
+<script src="java.js"></script>
+
+</html>

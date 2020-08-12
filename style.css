@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.con{
+    height: 450px;
+    margin-left: 5px;
+    margin-bottom: 0px;
+    width: 1515px;
+}
+.back{
+    margin: 0px;
+    width: 100%;
+    height: 99vh;
+    padding: 0%;
+    background-image: url("back.jpg");
+    background-repeat: no-repeat;
+    background-size:100% 99vh;
+    overflow-x: hidden; 
+    overflow-y: hidden;
+}
+.hoisting{
+    width: 100%;
+    height: 99vh;
+    padding: 0%;
+    display: inline-block;
+    background-image: url("pole.png");
+    background-repeat: no-repeat;
+    background-size: 43% ;
+    background-blend-mode: screen;
+    background-position:center;
+    overflow-x: hidden; 
+    overflow-y: hidden;
+}
+.flag{
+    
+    margin: 0px;
+    width: 100%;
+    height: 99vh;
+    padding: 0%;
+    background-image: url("gif_flag.gif");
+    background-position-x: 745px;
+    background-position-y: 800px;
+    background-repeat: no-repeat;
+    background-size: 250px ;
+    overflow-x: hidden; 
+    overflow-y: hidden;
+
+}
+.sol{
+    margin: 0px;
+    width: 100%;
+    height: 100vh;
+    padding: 0%;
+    background-image: url("s1.png");
+    background-size: 13% ;
+    background-repeat: repeat-x ;
+    background-position-x: 700px;
+    background-position-y: 560px;
+    overflow-x: hidden; 
+    overflow-y: hidden;
+}
+canvas {
+    width: 100%;
+    height: 100vh;
+    background-image: url("s1.png");
+    background-size: 13% ;
+    background-repeat: repeat-x ;
+    background-position-x: 700px;
+    background-position-y: 560px;
+    opacity: 0;
+    overflow-x: hidden; 
+    overflow-y: hidden;
+  }
+@keyframes sola{
+    form{opacity: 0;}
+    to{opacity: 1;}
+}
+@keyframes scal{
+    0%{background-image: url("back.jpg")}
+    50%{background-image: url("back2.jpg")}
+    100%{background-image: url("back.gif");}
+}
+@keyframes f_hoiting{
+    from{background-position-y: 500px;}
+    to{background-position-y: 113px;}
+}
